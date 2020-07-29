@@ -10,8 +10,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   min-width: 400px
- 
-  
+
 }
 html {
   scroll-behavior: smooth;
@@ -21,7 +20,7 @@ html {
 	border:20px black;
 }
 .button {
-  background-color: #FCC133; 
+  background-color: #0F2557; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -43,10 +42,31 @@ html {
   background-color: #0F2557;
 }
 .navbar .navbar-brand{
-  color:white !important;
+  color:white;
 }
 .navbar .navbar-nav li a{
   color: white
+
+
+}
+
+span{
+color: black;
+font-family: cursive;
+ cursor: pointer;
+
+
+}
+a:hover {
+  box-shadow: 0 22px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.font{
+  font-family: cursive;
+}
+img{
+  border:solid;
+  border-radius: 20px;
+  border-color: black !important
 }
 </style>
 
@@ -60,9 +80,9 @@ html {
 
     <title>Memet</title>
   </head>
-  <body>
+  <body style="background-color:  #FFFAFA">
     <nav class="navbar navbar-expand-lg  sticky-top">
-        <a class="navbar-brand" href="#">Memet</a>
+        <a class="navbar-brand font" href="#">Memet</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -80,8 +100,8 @@ html {
                 Color Theme
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="index.html">White-theme</a>
-                <a class="dropdown-item" href="dark mode.html">Dark-theme</a>
+                <a class="dropdown-item" href="index.html"><span>White-theme</span></a>
+                <a class="dropdown-item" href="dark mode.html"><span>Dark-theme</span></a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -89,8 +109,8 @@ html {
                 Meme Language
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="index.html">Bangla</a>
-                <a class="dropdown-item" href="english.html">English</a>
+                <a class="dropdown-item" href="index.html"><span>Bangla</span></a>
+                <a class="dropdown-item" href="english.html"><span>English</span></a>
               </div>
             </li>
           </ul>
@@ -100,11 +120,11 @@ html {
       </nav>
       <body>
         <iframe width="0" height="0" src="https://www.youtube.com/watch?v=CSSKNCYaQUA?autoplay=1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
-          <img class="brdere" src="01.png" alt="meme1" style="width: 45%;border: 300px black;">
+          <img class="brdere " src="01.png" alt="meme1" style="width: 45%;border: 300px black;">
       <br>
       <br>
       <br>
-      <img src="2.jpg" alt="meme1" style="width: 45%;">
+      <a><img src="2.jpg" alt="meme1" style="width: 45%;"></a>
       <br>
       <br>
       <br>
@@ -289,7 +309,8 @@ html {
   
 </div>
     
-<div id="section2" style="background-color: #FCC133">
+<div id="section2" style="background-color: #0F2557">
+  <h1 style="color: white;text-align: center;">About</h1>
 	<p align="center"><a href="#"><button class="button button2">To the top</button></a>
 </div>
 
